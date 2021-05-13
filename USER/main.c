@@ -29,6 +29,7 @@
 	KEY_Init();          //初始化与按键连接的硬件接口
 	 //git diff
 	TIM3_Int_Init(4999,7199);
+	//git 296966522
 
  	while(1)
 	{
