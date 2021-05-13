@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "grbl.h": "c",
+        "spindle_control.h": "c",
+        "sys.h": "c",
+        "usart.h": "c",
+        "defaults.h": "c",
+        "system.h": "c"
+    }
+}

@@ -1,0 +1,33 @@
+
+T2180 000:252 SEGGER J-Link V4.96d Log File (0001ms, 0016ms total)
+T2180 000:252 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0016ms total)
+T2180 000:252 Logging started @ 2019-06-29 22:44 (0001ms, 0016ms total)
+T2180 000:253 JLINK_SetWarnOutHandler(...) (0000ms, 0016ms total)
+T2180 000:253 JLINK_OpenEx(...)
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N: 20090928
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull  returns O.K. (0013ms, 0029ms total)
+T2180 000:266 JLINK_SetErrorOutHandler(...) (0000ms, 0029ms total)
+T2180 000:266 JLINK_ExecCommand("ProjectFile = "E:\单片机\STM32\战舰STM32资料_20190226\4，程序源码\2，标准例程-库函数版本\实验4 串口实验\USER\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0029ms total)
+T2180 000:266 JLINK_ExecCommand("Device = STM32F103ZE", ...)Device "STM32F103ZE" selected.  returns 0x00 (0001ms, 0030ms total)
+T2180 000:267 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetFirmwareString(...) (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetCompileDateTime() (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetFirmwareString(...) (0000ms, 0030ms total)
+T2180 000:267 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0030ms total)
+T2180 000:267 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0032ms total)
+T2180 000:269 JLINK_SetSpeed(10000) (0000ms, 0032ms total)
+T2180 000:270 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0032ms total)
+T2180 000:270 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M3 r1p1, Little endian. -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE0002000)FPUnit: 6 code (BP) slots and 2 literal slots
+ -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) -- CPU_WriteMem(4 bytes @ 0xE0001000) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE000ED88) -- CPU_WriteMem(4 bytes @ 0xE000ED88) -- CPU_ReadMem(4 bytes @ 0xE00FF010)TPIU fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF014)ETM fitted. -- CPU_ReadMem(4 bytes @ 0xE00FF018) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+ >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) -- CPU_ReadMem(4 bytes @ 0xE000EDFC) -- CPU_ReadMem(4 bytes @ 0xE0001000) (0066ms, 0098ms total)
+T2180 000:336 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x1BA01477 (0001ms, 0099ms total)
+T2180 000:339 JLINK_GetFirmwareString(...) (0000ms, 0099ms total)
+T2180 1023:803 JLINK_Close() -- CPU_WriteMem(4 bytes @ 0xE0001004) >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0006ms, 0105ms total)
+T2180 1023:803  (0006ms, 0105ms total)
+T2180 1023:803 Closed (0006ms, 0105ms total)
