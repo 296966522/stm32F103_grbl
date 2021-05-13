@@ -27,6 +27,7 @@
 	uart1_init(115200);	 //串口初始化为115200
  	LED_Init();			     //LED端口初始化
 	KEY_Init();          //初始化与按键连接的硬件接口
+	 //git diff
 	TIM3_Int_Init(4999,7199);
 
  	while(1)
